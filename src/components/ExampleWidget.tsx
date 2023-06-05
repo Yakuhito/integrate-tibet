@@ -372,7 +372,7 @@ export default function ExampleWidget() {
           <li>Price warning: {quote.price_warning ? 'YES' : 'No'}</li>
           <li>Dev fees (included): {donationAmount / 10 ** 12} XCH</li>
         </div>
-        <div className='pt-8 pb-2'>This screen would normally just ask the user to confirm the offer creating. But this is a website, not a wallet, so please create the offer yourself and paste it below:</div>
+        <div className='pt-8 pb-2'>This screen would normally just ask the user to confirm the offer creation. But this is a website, not a wallet, so please create the offer yourself and paste it below:</div>
         <input
           className='w-full px-1 py-2 rounded-md'
           placeholder='offer1'
