@@ -57,7 +57,7 @@ export default function Home() {
 
   return (
     <main
-      className="flex min-h-screen flex-col items-center justify-start lg:p-8 p-4 pb-0 bg-slate-100"
+      className="flex min-h-screen flex-col items-center justify-start lg:p-8 p-4 pb-0 bg-slate-100 text-black"
     >
       <div className='font-medium tracking-tight text-4xl text-gray-900'>Integrate TibetSwap in Your Wallet</div>
       <div className='font-light text-xl text-gray-900 mt-8'>Your users get a better UX, you get some fees 😉</div>
